@@ -4,8 +4,8 @@ import '../../component/list-item';
 const Favorite = {
   async render() {
     return `
-      <h2 class="title-article">Favorite Restaurant</h2>
-      <h3 id="favoriteIsEmpty" class="favoriteEmpty restaurant-item_not_found"></h3>
+      <h3 class="title-article">Favorite Restaurant</h3>
+      <h4 id="favoriteIsEmpty" class="favoriteEmpty restaurant-item_not_found"></h4>
       <list-item></list-item>
     `;
   },

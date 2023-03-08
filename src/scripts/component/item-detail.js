@@ -19,7 +19,7 @@ class ItemDetail extends HTMLElement {
           box-sizing: border-box;
         }
 
-        h2, h3, h4, p {
+        h3, h4, p {
           padding: 5px;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
           font-weight: lighter;
@@ -102,7 +102,7 @@ class ItemDetail extends HTMLElement {
 
       </style> 
       <section class='container'>
-        <h2 class="title-detail">${this._details.name}</h2>
+        <h3 class="title-detail">${this._details.name}</h3>
         <div class="description-container">
           <img class="resto-image" src="${CONFIG.BASE_IMAGE_MEDIUM_URL + this._details.pictureId}" alt="${this._details.name}" />
           <div class="description">

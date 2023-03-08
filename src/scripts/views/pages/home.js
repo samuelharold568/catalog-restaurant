@@ -4,7 +4,7 @@ import '../../component/list-item';
 const Home = {
   async render() {
     return `
-      <h2 class="title-article">Top Restaurant</h2>
+      <h3 class="title-article">Top Restaurant</h3>
       <list-item></list-item>
       <p class="btn-view-all" tabindex="0" tabindex="0"><a href="/#/restourant">View all..</a></p>
     `;

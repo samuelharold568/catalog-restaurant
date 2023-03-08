@@ -4,7 +4,7 @@ import '../../component/list-item';
 const Restourant = {
   async render() {
     return `
-    <h2 class="title-article">Our Restaurant</h2>
+    <h3 class="title-article">Our Restaurant</h3>
     <list-item></list-item>
   `;
   },
